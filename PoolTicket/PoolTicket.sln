@@ -1,0 +1,63 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29806.167
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "00-Frameworks", "00-Frameworks", "{577A97AC-14FA-483F-A404-92B2CC83C43F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01-Domain", "01-Domain", "{1CAA70E0-17CD-460F-815A-86997AA2B30A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "03-Repository", "03-Repository", "{08BCE953-32E0-4EAC-A39B-23AB52F64108}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "05-ViewModel", "05-ViewModel", "{BFB62797-7DE8-4FDF-8AAE-53CC73F04F6E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "04-DI", "04-DI", "{8410B5B8-59BF-441A-9DB7-BAC54957AA07}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "06-Persentation", "06-Persentation", "{69D8042A-1AEB-4151-89FD-0973129D8701}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Domain.PoolTicket", "Domain.PoolTicket\Domain.PoolTicket.csproj", "{80CA5827-233A-446A-9B64-11C5C3DA09F8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02-Infrastructure", "02-Infrastructure", "{FDDD665D-9EAF-4101-9D89-C0212AC94149}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PoolTicket.DataAcess.Ef", "PoolTicket.DataAcess.Ef\PoolTicket.DataAcess.Ef.csproj", "{D8E1E18B-042E-404F-BAB2-63D6587886C8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PoolTicket.DataAccess.Ef.Configuration", "PoolTicket.DataAccess.Ef.Configuration\PoolTicket.DataAccess.Ef.Configuration.csproj", "{B8978597-ECB5-4845-900A-52AF624148BB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PoolTicket", "PoolTicket\PoolTicket.csproj", "{2B9194B2-8E44-453D-BF57-015B81664F0C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{80CA5827-233A-446A-9B64-11C5C3DA09F8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{80CA5827-233A-446A-9B64-11C5C3DA09F8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{80CA5827-233A-446A-9B64-11C5C3DA09F8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{80CA5827-233A-446A-9B64-11C5C3DA09F8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D8E1E18B-042E-404F-BAB2-63D6587886C8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D8E1E18B-042E-404F-BAB2-63D6587886C8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D8E1E18B-042E-404F-BAB2-63D6587886C8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D8E1E18B-042E-404F-BAB2-63D6587886C8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B8978597-ECB5-4845-900A-52AF624148BB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B8978597-ECB5-4845-900A-52AF624148BB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B8978597-ECB5-4845-900A-52AF624148BB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B8978597-ECB5-4845-900A-52AF624148BB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2B9194B2-8E44-453D-BF57-015B81664F0C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2B9194B2-8E44-453D-BF57-015B81664F0C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2B9194B2-8E44-453D-BF57-015B81664F0C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2B9194B2-8E44-453D-BF57-015B81664F0C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{80CA5827-233A-446A-9B64-11C5C3DA09F8} = {1CAA70E0-17CD-460F-815A-86997AA2B30A}
+		{D8E1E18B-042E-404F-BAB2-63D6587886C8} = {FDDD665D-9EAF-4101-9D89-C0212AC94149}
+		{B8978597-ECB5-4845-900A-52AF624148BB} = {FDDD665D-9EAF-4101-9D89-C0212AC94149}
+		{2B9194B2-8E44-453D-BF57-015B81664F0C} = {69D8042A-1AEB-4151-89FD-0973129D8701}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {40E13FB1-A4DD-4FBE-8739-76D88E149219}
+	EndGlobalSection
+EndGlobal
